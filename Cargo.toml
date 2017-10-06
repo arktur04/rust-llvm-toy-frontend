@@ -1,0 +1,13 @@
+[package]
+name = "llvm-example"
+version = "0.1.0"
+authors = ["Ulysse Carion <ulysse@ulysse.io>"]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]
+llvm-sys = "38"
+peg = "0.5.4"
+peg-syntax-ext = "0.5.2"
